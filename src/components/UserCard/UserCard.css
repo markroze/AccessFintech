@@ -1,0 +1,17 @@
+.usercard {
+  display: flex;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  max-width: 70%;
+  border-radius: 6px;
+  margin: 1rem auto;
+}
+
+.usercard__avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  margin-right: 1rem;
+  background-position: center;
+  background-size: cover;
+}

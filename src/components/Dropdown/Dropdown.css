@@ -15,4 +15,8 @@
   min-width: 90px;
   padding: 0.5rem;
   cursor: pointer;
+  white-space: nowrap;
+}
+.dropdown__popover__item:hover {
+  background-color: hsla(210, 100%, 33%, 0.5);
 }

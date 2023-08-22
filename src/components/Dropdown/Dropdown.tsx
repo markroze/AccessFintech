@@ -8,7 +8,7 @@ const dropdownBaseStyles = () => ({
   color: Theme.colors.white100,
 });
 
-interface DropdownOption {
+export interface DropdownOption {
   value: string;
   label: string;
 }
@@ -62,8 +62,8 @@ const Dropdown = ({
       }
       if (event.code === 'Space' || event.code === 'Enter') {
         handleOptionSelect(options[activeIndex]);
-        event.preventDefault();
       }
+      event.preventDefault();
     },
     [options, activeIndex, handleOptionSelect]
   );
