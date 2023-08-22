@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dropdown should render correctly 1`] = `
+<div>
+  <div
+    class="dropdown undefined"
+    datatestid="dropdown"
+  >
+    <button
+      aria-expanded="false"
+      aria-haspopup="true"
+      aria-labelledby="dropdown__button"
+      class="dropdown__button"
+      style="background-color: rgb(48, 48, 48); color: rgb(255, 255, 255);"
+      tabindex="0"
+    >
+      <svg
+        fill="none"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M10.5 16.5a1.5 1.5 0 103 0 1.5 1.5 0 00-3 0zm0-4.5a1.5 1.5 0 103 0 1.5 1.5 0 00-3 0zm0-4.5a1.5 1.5 0 103 0 1.5 1.5 0 00-3 0z"
+          fill="currentColor"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </button>
+  </div>
+</div>
+`;

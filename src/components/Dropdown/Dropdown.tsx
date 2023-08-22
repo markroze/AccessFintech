@@ -81,6 +81,7 @@ const Dropdown = ({
     <div
       {...{
         className: `dropdown ${className}`,
+        dataTestid: 'dropdown',
       }}
     >
       <button
@@ -98,6 +99,7 @@ const Dropdown = ({
       </button>
       {isOpen && (
         <ul
+          data-testid="dropdownItems"
           {...{
             className: `dropdown__popover`,
             style: {
