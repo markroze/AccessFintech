@@ -1,2 +1,1 @@
-# AccessFintech
-Home assignment
+# Access Fintech Home Assignment
