@@ -60,7 +60,7 @@ const Dropdown = ({
       if (event.code === 'Escape') {
         handleClose();
       }
-      if (event.code === 'Space') {
+      if (event.code === 'Space' || event.code === 'Enter') {
         handleOptionSelect(options[activeIndex]);
         event.preventDefault();
       }
