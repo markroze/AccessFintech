@@ -3,7 +3,7 @@ import Dropdown from './components/Dropdown';
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <Dropdown
         {...{
           options: [
@@ -14,6 +14,7 @@ function App() {
           required: true,
           tabIndex: 1,
           className: 'dropdown',
+          onOptionSelect: (option) => console.log(option),
         }}
       />
     </div>
